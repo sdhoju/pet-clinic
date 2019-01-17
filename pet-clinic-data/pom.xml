@@ -7,22 +7,18 @@
     <artifactId>pet-clinic</artifactId>
     <version>2.2.0-SNAPSHOT</version>
   </parent>
+  
   <groupId>samee.springframework</groupId>
   <artifactId>pet-clinic-data</artifactId>
   <version>2.2.0-SNAPSHOT</version>
   <name>pet-clinic-data</name>
   <url>http://maven.apache.org</url>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <dependencies>
   
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+  <dependencies>
     
     <dependency>
 			<groupId>com.h2database</groupId>
@@ -67,6 +63,7 @@
 						</goals>
 						<configuration>
 							<skip>true</skip>
+							
 						</configuration>
 					</execution>
 				</executions>
@@ -75,4 +72,5 @@
 	</build>
 	
 	
+	<packaging>pom</packaging>
 </project>
