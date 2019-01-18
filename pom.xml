@@ -32,7 +32,8 @@
 				<configuration>
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-
+					<username>sdhoju</username>
+					<password>Style0n4345</password>
 				</configuration>
 			</plugin>
 		</plugins>
