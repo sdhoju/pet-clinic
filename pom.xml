@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>samee.springframework</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>pet-clinic</name>
 	<description>project for Spring Boot </description>
 
@@ -32,7 +32,8 @@
 				<configuration>
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-					
+					<username>sdhoju</username>
+					<password>Style0n4345</password>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -41,7 +42,6 @@
 	
 	<scm>
 		<developerConnection>scm:git:https://github.com/sdhoju/pet-clinic.git</developerConnection>
-    <tag>pet-clinic-1.0.0</tag>
   </scm>
 
 	<modules>
