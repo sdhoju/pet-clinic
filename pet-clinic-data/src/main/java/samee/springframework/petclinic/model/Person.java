@@ -7,7 +7,7 @@ package samee.springframework.petclinic.model;
  * @author Sameer
  *
  */
-public class Person {
+public class Person extends BaseEntity {
 
 	private String firstName;
 	private String lastName;
