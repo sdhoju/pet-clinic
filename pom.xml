@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>samee.springframework</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>pet-clinic</name>
 	<description>project for Spring Boot </description>
 
@@ -43,6 +43,7 @@
 	
 	<scm>
 		<developerConnection>scm:git:https://github.com/sdhoju/pet-clinic.git</developerConnection>
+    <tag>pet-clinic-1.0.1</tag>
   </scm>
 
 	<modules>
