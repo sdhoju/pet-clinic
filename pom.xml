@@ -17,6 +17,7 @@
 	
 	<properties>
 		<java.version>1.8</java.version>
+		
 	</properties>
 	<build>
 		<plugins>
@@ -32,7 +33,8 @@
 				<configuration>
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-					
+					<username>sdhoju</username>
+					<password>Style0n4345</password>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -41,7 +43,6 @@
 	
 	<scm>
 		<developerConnection>scm:git:https://github.com/sdhoju/pet-clinic.git</developerConnection>
-    <tag>HEAD</tag>
   </scm>
 
 	<modules>
