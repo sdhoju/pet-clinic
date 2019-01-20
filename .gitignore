@@ -18,6 +18,9 @@ npm-debug.log.*
 ######################
 .sass-cache/
 
+release.properties
+
+
 ######################
 # Eclipse
 ######################
